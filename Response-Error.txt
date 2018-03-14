@@ -1,0 +1,13 @@
+Unhandled Rejection (SyntaxError): Unexpected end of JSON input
+(anonymous function)
+C:/Users/Chris/Desktop/smart-brain/src/App.js:95
+  92 |     id: this.state.user.id
+  93 |   })
+  94 | })
+> 95 |   .then(response => response.json())
+  96 |   .then(count => {
+  97 |     this.setState(Object.assign(this.state.user, { entries: count}))
+  98 |   })
+View compiled
+This screen is visible only in development. It will not appear if the app crashes in production.
+Open your browser’s developer console to further inspect this error.
